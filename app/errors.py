@@ -27,4 +27,3 @@ class NotWearingMaskError(Exception):
                  message: str = "Visitor is not wearing a mask.") -> None:
         self.name = name
         super().__init__(f"{self.name}: {message}")
-
